@@ -1,3 +1,8 @@
+.userCoverContainer{
+    background-color: gray;
+    height: 300px;
+}
+
 /* Large desktop */
 @media (min-width: 1200px) {
     body {

@@ -8,14 +8,20 @@
 <body>
     <?php view('inc/nav'); ?>
     <div class="container-fluid">
-        <div class="row">
-            <div class="offset3 span2">
+        <div class="row-fluid">
+            <div class="offset2 span8 userCoverContainer">
+
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="offset2 span2">
                 <strong>
                     Sobre:
                 </strong>
                 <p>Web developer PHP</p>
+                <p><a href="#">Rio Grande do Sul, Brasil</a></p>
             </div>
-            <div class="span4">
+            <div class="span6">
                 msg
             </div>
         </div>

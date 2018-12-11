@@ -19,8 +19,10 @@ $controller=$segment[1];
 if($controller=='/'){
     $controller='home';
 }
+$method=mb_strtolower(getMethod());
+$controller=$controller.'-'.$method;
 $filename=ROOT.'controller/'.$controller.'.php';
-if(file_exists($filename) && !strpos($controller, '-')){
+if(file_exists($filename)){
     controller($controller);
 }else{
     view('404');

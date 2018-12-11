@@ -20,8 +20,8 @@
                     <?php e($user['location']); ?>
                 </p>
             </div>
-            <div class="span6">
-                msg
+            <div class="span6" id="userFeed">
+                feed do usuario
             </div>
         </div>
     </div> <!--container-->

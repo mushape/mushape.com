@@ -1,6 +1,8 @@
 <?php
 $user=[
-    'name'=>'Anderson Ismael'
+    'name'=>'Anderson Ismael',
+    'description'=>'Web developer PHP',
+    'location'=>'Brasil'
 ];
 $data=[
     'user'=>$user

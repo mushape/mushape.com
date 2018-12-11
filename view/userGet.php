@@ -2,7 +2,7 @@
 <html lang="pt" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <title>Hello World</title>
+    <title><?php e($user['name']); ?></title>
     <?php view('inc/header'); ?>
 </head>
 <body>
@@ -15,11 +15,10 @@
         </div>
         <div class="row-fluid">
             <div class="offset2 span2">
-                <strong>
-                    Sobre:
-                </strong>
-                <p>Web developer PHP</p>
-                <p><a href="#">Rio Grande do Sul, Brasil</a></p>
+                <p><?php e($user['description']); ?></p>
+                <p>
+                    <?php e($user['location']); ?>
+                </p>
             </div>
             <div class="span6">
                 msg

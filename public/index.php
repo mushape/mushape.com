@@ -19,8 +19,8 @@ $controller=$segment[1];
 if($controller=='/'){
     $controller='home';
 }
-$method=mb_strtolower(getMethod());
-$controller=$controller.'-'.$method;
+$method=ucfirst(strtolower(getMethod()));
+$controller=$controller.$method;
 $filename=ROOT.'controller/'.$controller.'.php';
 if(file_exists($filename)){
     controller($controller);

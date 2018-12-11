@@ -6,7 +6,7 @@
     <?php view('inc/header'); ?>
 </head>
 <body>
-    <?php view('inc/navOffline'); ?>
+    <?php view('inc/nav'); ?>
     <div class="container">
       <h1>Hello World</h1>
       <p>Bem vindo ao site</p>

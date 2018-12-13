@@ -47,6 +47,23 @@ label{
 .table .main{
     width:100%;
 }
+#userCover{
+    background-color:gray;
+        height: 225px;
+}
+#userCover h2{
+    color:white;
+    font-weight: lighter;
+    text-shadow:rgba(0, 0, 0, 0.8) 0px 0px 3px;
+}
+#userCover h2{
+    margin-top: 150px;
+}
+#userCover .img-polaroid{
+    float: left;
+    margin: 20px;
+    margin-top:72px;
+}
 
 /* Large desktop */
 @media (min-width: 1200px) {
@@ -61,7 +78,24 @@ label{
 }
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) { ... }
+@media (max-width: 767px) {
+    #userCover{
+        background-color: white;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 0px;
+    }
+    #userCover h2{
+        color:#333;
+        margin: 0;
+        text-shadow: none;
+    }
+    #userCover .img-polaroid{
+        float: none;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}
 
 /* Landscape phones and down */
 @media (max-width: 480px) {

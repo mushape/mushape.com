@@ -1,14 +1,14 @@
 <?php
 $user=[
-    'uuid'=>'Qe8ETMQxwts',
+    'uuid'=>'Ue8ETMQxwts',
     'name'=>'Anderson Ismael'
 ];
 $message=[
     'site'=>'site.com',
     'title'=>'Dólar continua subindo',
     'link'=>'https://site.com/pagina',
-    'uuid'=>'Qe8ETMQxwts',
-    'message'=>'Olá mundo',
+    'uuid'=>'Me8ETMQxwts',
+    'message'=>'Olá mundo olá mundo olá mundo olá mundo olá mundo olá mundo olá mundo olá mundo olá mundo olá mundo',
     'date'=>time()
 ];
 $data=[
@@ -16,7 +16,7 @@ $data=[
     'user'=>$user,
     'title'=>$message['title']
 ];
-$content=view('media/message',$data,false);
+$content=view('media/link',$data,false);
 $data=[
     'title'=>$data['title'],
     'content'=>$content

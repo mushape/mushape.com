@@ -9,11 +9,18 @@ label{
 .hand{
     cursor: pointer;
 }
+.media{
+    color:gray;
+}
 .media a{
     font-weight: bold;
 }
 .media .image{
     background:#dcdcdc;
+}
+.media .linkToMsg{
+    color: gray;
+    font-weight: normal;
 }
 .media small a{
     color:gray;

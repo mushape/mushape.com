@@ -9,14 +9,15 @@
                     <?php e($user['name']); ?>
                 </a>
                 <a class="linkToMsg" href="/message/<?php e($message['uuid']); ?>">
-                    compartilhou o link do site
+                    compartilhou o link
                 </a>
-                <a target="_blank" href="/site/<?php e($message['site']); ?>">
-                    <?php e($message['site']); ?>
-                </a>
+                <span class="date" x-date="<?php e($message['created_at']); ?>">
+                </span>:
             </div>
             <h4><a href="<?php e($message['link']); ?>"><?php e($message['title']); ?></a></h4>
-            <span class="date" x-date="<?php e($message['date']); ?>"></span>
+            <a target="_blank" href="/site/<?php e($message['site']); ?>">
+                <?php e($message['site']); ?>
+            </a>
         </div>
     </li>
 </ul>

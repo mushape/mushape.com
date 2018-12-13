@@ -8,13 +8,18 @@
                 <a href="/user/<?php e($user['uuid']); ?>">
                     <?php e($user['name']); ?>
                 </a>
-                <a class="linkToMsg" href="/message/<?php e($message['uuid']); ?>">disse</a>
+                <a class="linkToMsg" href="/image/<?php e($image['uuid']); ?>">
+                    compartilhou essa imagem
+                </a>
                 <span class="date" x-date="<?php e($message['created_at']); ?>">
                 </span>:
             </div>
-            <h4>
-                <?php e($message['message']); ?>
-            </h4>
+            <p class="media-caption">
+                <?php e($image['caption']); ?>
+            </p>
+            <a href="/image/<?php e($image['uuid']); ?>">
+                <img class="media-image" src="<?php e($image['src']); ?>" alt="">
+            </a>
         </div>
     </li>
 </ul>

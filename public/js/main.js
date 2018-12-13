@@ -9,7 +9,7 @@ function atualizarADataDosLinks(){//atualizar o cronometro
     $('.date').each(function (index, value) {
         var xDate=$(this).attr('x-date');
         var dataText=timeSince(xDate);
-        $(this).html(dataText);
+        $(this).html(dataText+' atrás');
     });
 }
 function timeConverter(UNIX_timestamp){//unix epoch to date

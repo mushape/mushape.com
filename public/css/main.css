@@ -15,6 +15,9 @@ label{
 .media a{
     font-weight: bold;
 }
+.media h4{
+    color:black;
+}
 .media .image{
     background:#dcdcdc;
 }
@@ -28,6 +31,14 @@ label{
 }
 .media-body a{
     color:black;
+}
+.media-caption{
+    margin-top:0.5em;
+    color:black;
+}
+.media-image{
+    border:1px solid #dcdcdc;
+    max-height: 398px;
 }
 .table {
     width:100%;

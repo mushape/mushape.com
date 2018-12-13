@@ -9,8 +9,15 @@ label{
 .hand{
     cursor: pointer;
 }
+.media a{
+    font-weight: bold;
+}
 .media .image{
     background:#dcdcdc;
+}
+.media small a{
+    color:gray;
+    font-weight: normal;
 }
 .media-body a{
     color:black;

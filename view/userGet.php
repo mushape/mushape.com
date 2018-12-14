@@ -29,7 +29,9 @@
             <div class="offset2 span2">
                 <hr class="visible-phone">
                 <div id="userMeta">
-                    <p><?php e($user['description']); ?></p>
+                    <p>
+                        <?php e($user['description']); ?>
+                    </p>
                     <p>
                         <?php e($user['location']); ?>
                     </p>

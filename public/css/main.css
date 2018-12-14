@@ -40,6 +40,9 @@ label{
     border:1px solid #dcdcdc;
     max-height: 398px;
 }
+.searchBox{
+    width: calc(100% - 39px);
+}
 .table {
     width:100%;
     white-space: nowrap;

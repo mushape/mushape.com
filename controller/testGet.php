@@ -23,7 +23,7 @@ $data=[
     'user'=>$user,
     'title'=>'Titulo'
 ];
-$content=view('media/image',$data,false);
+$content=view('media/message',$data,false);
 $data=[
     'title'=>$data['title'],
     'content'=>$content

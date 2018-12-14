@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="/css/bootstrap-responsive-2.3.2.min.css"/>
 <script src="/js/jquery-3.3.1.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
+<script src="/js/holder.js"></script>
 <link rel="stylesheet" href="/css/main.css?v1">
 <link rel="stylesheet" href="/css/bootstrap-modal.css">
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/logo.png">
